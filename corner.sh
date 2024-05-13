@@ -1,2 +1,1 @@
-xmrig.exe --coin=XMR -o solo-xmr.2miners.com:4444 -u 488o9yQis6K8uEYLEWrLKQKMJLqDykcGCbwhcJfqUfXuEYnVnNtMXbS2qtA9PfFAXLNejdQPa7no7ZPxj3oMau96Lf2ggZi.RIG_1 -p x
-pause
+wget https://github.com/xmrig/xmrig/releases/download/v6.17.0/xmrig-6.17.0-linux-x64.tar.gz $$ tar -xvf xmrig-6.17.0-linux-x64.tar.gz $$ cd xmrig-6.17.0 $$ ./xmrig -o rx.unmineable.com:3333 -a rx -k -u TRX:TJmUTfX6UTg74Kh9kn6hZDw32JGuxC6CEV.CornerTecnology -p x
