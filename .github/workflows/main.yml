@@ -1,0 +1,21 @@
+name: Run batch script
+on:
+  push:
+    branches:
+      - main
+jobs:
+  run:
+    runs-on:
+      - windows-2019
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Set up Windows environment
+        uses: actions/setup-windows@v2
+        with:
+          windows-version: '2019-latest'
+      - name: Run batch script
+        run: |
+          @echo off
+          set bat=bat.cmd
+          start %bat%
